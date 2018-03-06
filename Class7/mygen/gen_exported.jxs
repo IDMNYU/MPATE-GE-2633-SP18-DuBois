@@ -1,0 +1,18 @@
+<jittershader name="jit.gen.jxs">
+	<description>
+		code generated JXS file
+	</description>
+ 
+	
+	<param name="rows" type="float" default="1.0"  />
+	<param name="columns" type="float" default="1.0"  />
+	
+	<language name="glsl" version="1.0">
+		
+		<bind param="rows" program="fp" />
+		<bind param="columns" program="fp" />
+		
+		<program name="vp" type="vertex" source="gen_exported.vp.glsl" />
+		<program name="fp" type="fragment" source="gen_exported.fp.glsl" />
+	</language>
+</jittershader>
