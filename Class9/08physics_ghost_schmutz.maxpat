@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -641.0, 155.0, 1184.0, 607.0 ],
+		"rect" : [ 73.0, 239.0, 1184.0, 607.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -37,6 +37,19 @@
 		"style" : "luketeaching",
 		"subpatcher_template" : "luketeaching_template",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 447.5, 678.0, 85.0, 29.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
@@ -774,7 +787,7 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 75.0, 275.0, 322.0, 29.0 ],
 					"style" : "",
-					"text" : "jit.gl.render foom @erase_color 1 1 1 1"
+					"text" : "jit.gl.render foom @erase_color 0 0 0 1"
 				}
 
 			}
@@ -829,6 +842,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
