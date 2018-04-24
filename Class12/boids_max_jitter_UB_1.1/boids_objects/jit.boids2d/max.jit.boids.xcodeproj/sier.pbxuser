@@ -1,0 +1,62 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* jit.boids2d */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* jit.boids2d */,
+		);
+		breakpointsGroup = 8B73F5470AA3342E006A3369 /* XCBreakpointsBucket */;
+		codeSenseManager = 8B73F4B10AA33104006A3369 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					471,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 178467046;
+			PBXWorkspaceStateSaveDate = 178467046;
+		};
+		sourceControlManager = 8B73F4B00AA33104006A3369 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8B73F4B00AA33104006A3369 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	8B73F4B10AA33104006A3369 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8B73F5470AA3342E006A3369 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = max.jit.boids;
+		objects = (
+		);
+	};
+	8D01CCC60486CAD60068D4B7 /* jit.boids2d */ = {
+		activeExec = 0;
+	};
+}
